@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p>© 2023 Ваш лендинг. Все права защищены.</p>
+      <p>footerDescription</p>
     </footer>
   );
 };

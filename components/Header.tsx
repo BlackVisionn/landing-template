@@ -6,33 +6,30 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="#features">Особенности</a>
+            <a href="#features">featuresNavItemName</a>
           </li>
           <li>
-            <a href="#about">О нас</a>
+            <a href="#about">aboutNavItemName</a>
           </li>
           <li>
-            <a href="#services">Услуги</a>
+            <a href="#services">servicesNavItemName</a>
           </li>
           <li>
-            <a href="#portfolio">Портфолио</a>
+            <a href="#portfolio">portfolioNavItemName</a>
           </li>
           <li>
-            <a href="#team">Команда</a>
+            <a href="#team">teamNavItemName</a>
           </li>
           <li>
-            <a href="#contact">Контакты</a>
+            <a href="#contact">contactNavItemName</a>
           </li>
         </ul>
       </nav>
       <div className="hero parallax">
-        <h1 className="animated fadeIn">Добро пожаловать на мой лендинг</h1>
-        <p className="animated fadeIn">
-          Здесь вы можете найти всю необходимую информацию о нашей компании или
-          продукте.
-        </p>
+        <h1 className="animated fadeIn">headerName</h1>
+        <p className="animated fadeIn">headerDescription</p>
         <a href="#contact" className="btn interactive-button">
-          Свяжитесь с нами
+          buttonName
         </a>
       </div>
     </header>

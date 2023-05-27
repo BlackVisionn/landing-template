@@ -4,21 +4,26 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="parallax">
       <div className="overlay"></div>
-      <h2 className="animated fadeIn">Портфолио</h2>
-      <p className="animated fadeIn">
-        Наше портфолио включает различные проекты, среди которых:
-      </p>
+      <h2 className="animated fadeIn">portfolioHeader</h2>
+      <p className="animated fadeIn">portfolioDescription</p>
       <ul className="animated fadeIn">
         <li>
-          Интернет-магазин <a href={"https://ya.ru/"}>"Fashion Style"</a>
+          firstPortoflioItemListProjectDescription{" "}
+          <a href={"firstPortoflioItemListProjectUrl"}>
+            "firstPortoflioItemListProjectName"
+          </a>
         </li>
         <li>
-          Сайт о здоровом образе жизни{" "}
-          <a href={"https://ya.ru/"}>"Healthy Living"</a>
+          secondPortoflioItemListProjectDescription{" "}
+          <a href={"secondPortoflioItemListProjectUrl"}>
+            "secondPortoflioItemListProjectName"
+          </a>
         </li>
         <li>
-          Лэндинг для туристической компании{" "}
-          <a href={"https://ya.ru/"}>"Travel Explore"</a>
+          thirdPortoflioItemListProjectDescription{" "}
+          <a href={"thirdPortoflioItemListProjectUrl"}>
+            "thirdPortoflioItemListProjectName"
+          </a>
         </li>
       </ul>
     </section>
