@@ -7,8 +7,8 @@ const Header = () => {
         <ul>
           <li><a href="#features">featuresNavItemName</a></li>
           <li><a href="#about">aboutNavItemName</a></li>
-          <li><a href="#services">servicesNavItemName</a> </li>
-          <li><a href="#portfolio">portfolioNavItemName</a> </li>
+          <li><a href="#services">servicesNavItemName</a></li>
+          <li><a href="#portfolio">portfolioNavItemName</a></li>
           <li><a href="#team">teamNavItemName</a></li>
           <li><a href="#contact">contactNavItemName</a></li>          
         </ul>
@@ -16,9 +16,7 @@ const Header = () => {
       <div className="hero parallax">
         <h1 className="animated fadeIn">headerName</h1>
         <p className="animated fadeIn">headerDescription</p>
-        <a href="#contact" className="btn interactive-button">
-          buttonName
-        </a>
+        <a href="#contact" className="btn interactive-button">buttonName</a>
       </div>
     </header>
   );
