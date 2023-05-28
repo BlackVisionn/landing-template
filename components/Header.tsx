@@ -5,24 +5,12 @@ const Header = () => {
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="#features">featuresNavItemName</a>
-          </li>
-          <li>
-            <a href="#about">aboutNavItemName</a>
-          </li>
-          <li>
-            <a href="#services">servicesNavItemName</a>
-          </li>
-          <li>
-            <a href="#portfolio">portfolioNavItemName</a>
-          </li>
-          <li>
-            <a href="#team">teamNavItemName</a>
-          </li>
-          <li>
-            <a href="#contact">contactNavItemName</a>
-          </li>
+          <li><a href="#features">featuresNavItemName</a></li>
+          <li><a href="#about">aboutNavItemName</a></li>
+          <li><a href="#services">servicesNavItemName</a> </li>
+          <li><a href="#portfolio">portfolioNavItemName</a> </li>
+          <li><a href="#team">teamNavItemName</a></li>
+          <li><a href="#contact">contactNavItemName</a></li>          
         </ul>
       </nav>
       <div className="hero parallax">
